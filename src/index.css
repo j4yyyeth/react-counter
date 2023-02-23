@@ -1,13 +1,57 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 238, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  height: 250px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(52, 52, 52);
+  border-radius: 20px;
+  box-shadow: 10px 10px 50px 30px rgba(0,0,0,0.75)
+}
+
+.App h1 {
+  width: 100px;
+  background-color: rgb(187, 187, 188);
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.buttons {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.green {
+  background-color: rgb(1, 156, 1);
+  height: 30px;
+  width: 50px;
+  border-radius: 150px 150px 0 0;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+}
+
+.red {
+  background-color: red;
+  height: 30px;
+  width: 50px;
+  border-radius: 0 0 150px 150px;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
 }
